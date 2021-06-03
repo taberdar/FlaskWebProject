@@ -3,9 +3,12 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- The title is provided by the code so when the page is rendered the title will be replaced with whatever the title is  -->
     <title>{{ title }} - My Flask Application</title>
+    <!-- Cascading Sytle Sheets allow formatting to be applied across the whole site without lots of editing -->
     <link rel="stylesheet" type="text/css" href="/static/content/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="/static/content/site.css" />
+    <!-- Some JavaScript -->
     <script src="/static/scripts/modernizr-2.6.2.js"></script>
 </head>
 
@@ -31,6 +34,7 @@
     </div>
 
     <div class="container body-content">
+        <!-- This content is replaced by whatever the child html defines -->
         {% block content %}{% endblock %}
         <hr />
         <footer>
@@ -38,6 +42,8 @@
         </footer>
     </div>
 
+    <!-- This includes JavaScript - these get used at various places -->
+    <!-- The JavaScript files are located in static/scripts/ -->
     <script src="/static/scripts/jquery-1.10.2.js"></script>
     <script src="/static/scripts/bootstrap.js"></script>
     <script src="/static/scripts/respond.js"></script>

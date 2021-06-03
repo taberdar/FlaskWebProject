@@ -41,6 +41,7 @@
     <Folder Include="FlaskWebProject\templates\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="FlaskWebProject\static\lasvegas.jpg" />
     <Content Include="requirements.txt" />
     <Content Include="FlaskWebProject\static\content\bootstrap.css" />
     <Content Include="FlaskWebProject\static\content\bootstrap.min.css" />

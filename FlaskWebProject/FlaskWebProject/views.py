@@ -38,6 +38,6 @@ def about():
 
 # If you add a Web page you start with a decorator 
 # Then define a function
-# This function renders a template
-# It's up to you to make the template - it's best to start with a simple one like contact.html
+# This function renders an html file
+# It's up to you to make the html file - it's best to start with a simple one like about.html
 # Start simple and gradually add more complexity

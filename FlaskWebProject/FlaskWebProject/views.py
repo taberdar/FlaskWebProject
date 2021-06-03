@@ -13,7 +13,7 @@ def home():
     return render_template(  # Notice that title and year are being passed to the render template function so they will appear on the web page
         'index.html',        # index.html is located in the folder templates (the s is vital and is done for you)
         title='Home Page',
-        year=datetime.now().year,
+        year=datetime.now().year,  # this is dynamic content
     )
 
 @app.route('/contact')

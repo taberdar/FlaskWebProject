@@ -40,3 +40,4 @@ def about():
 # Then define a function
 # This function renders a template
 # It's up to you to make the template - it's best to start with a simple one like contact.html
+# Start simple and gradually add more complexity

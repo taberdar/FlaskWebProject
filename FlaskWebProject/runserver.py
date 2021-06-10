@@ -6,6 +6,7 @@ from os import environ
 
 # This line imports app from the FlaskWebProject folder
 # app is defined in the file __init__.py 
+
 from FlaskWebProject import app
 
 if __name__ == '__main__':  # This will be true if this file is being run directly
